@@ -8,3 +8,21 @@ while($contador <= 10) {
 }
 
 echo "\n";
+
+
+
+
+
+
+
+$usernames = ["Pepito123", "Mr.Michi", "RetaxMain"];
+
+do {
+    
+    $user = readline("Por favor, ingresa tu nuevo nombre de usuario: ");
+
+    echo "\n";
+
+} while( in_array($user, $usernames) );
+
+echo "\n";
